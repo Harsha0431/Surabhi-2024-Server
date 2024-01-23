@@ -131,6 +131,7 @@ async function tokenAuthController(req, res) {
           id: username,
           mail: temp.mail,
           name: temp.name
+          
       } });
     }
     else
