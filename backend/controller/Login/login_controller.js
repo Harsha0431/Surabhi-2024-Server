@@ -93,7 +93,6 @@ async function login_controller(req, res) {
               JWT_KEY
             );
             const temp = middleware.verifyToken(token);
-            console.log(temp);
             return res.json({
               code: 1,
               message: "Login successfull",
